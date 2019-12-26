@@ -8,8 +8,10 @@ void main() {
         backgroundColor: Colors.blueGrey[900],
       ),
       backgroundColor: Colors.blueGrey,
-      body: Image(
-        image: AssetImage('images/rock.png'),
+      body: Center(
+        child: Image(
+          image: AssetImage('images/rock.png'),
+        ),
       ),
     ),
   ));
